@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biodata Mahasiswa</title>
+  <link rel="stylesheet" type="text/css" href="tugas07.css">
+</head>
+<body>
+  <center>
+  <h1>Data Diri Mahasiswa</h1>
+  </center>
+
+  <div class="container">
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama"><br>
+
+      <label for="nim">NIM:</label>
+      <input type="text" id="nim" name="nim"><br>
+
+      <label for="prodi">Program Studi:</label>
+      <select id="prodi" name="prodi">
+        <option value=" Informatika">Informatika</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        <option value="Manajemen Informatika">Manajemen Informatika</option>
+      </select><br>
+
+      <label for="alamat">Alamat:</label>
+      <textarea id="alamat" name="alamat"></textarea><br>
+
+      <button type="button" onclick="submitBiodata()">Submit</button>
+    </form>
+
+    <div id="hasil"></div>
+  </div>
+
+  <script src="tugas07.js"></script>
+
+</body>
+</html>
